@@ -189,4 +189,9 @@ a.glyphicon:hover {
   transform: translate(0, 0) rotate(0, 0);
 }
 
-
+@media (min-width: 568px) {
+	slider {
+		width: 400px;
+		height: 400px;
+	}
+}
