@@ -22,5 +22,3 @@ $('.slider')
         "top": "50px"
       }, {queue:false, duration: 4000, easing:"easeOutElastic"} );
 
-
-
