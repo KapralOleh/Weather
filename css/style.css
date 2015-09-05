@@ -10,6 +10,7 @@ body {
 }
 .navbar-default .navbar-nav>.active>a{
 	background: #64B9B4 !important;
+	color: #000 !important;
 }
 .navbar-fixed-bottom {
 	padding-top: 20px;
