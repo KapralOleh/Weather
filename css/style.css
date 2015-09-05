@@ -190,7 +190,7 @@ a.glyphicon:hover {
 }
 
 @media (min-width: 568px) {
-	slider {
+	.slider {
 		width: 400px;
 		height: 400px;
 	}
