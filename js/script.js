@@ -16,9 +16,9 @@ $(function(){
         var offset = (new Date()).getTimezoneOffset()*60*1000; // Відхилення від UTC  в мілісекундах
         var city = data.city.name;
         var country = data.city.country;
-        $("#weather7Table tr:not(:first)").remove();
+        $("#weather8Table tr:not(:first)").remove();
         $("#weatherDiv .slide").remove();
-        $("#weather7Div .col-md-3.col-sm-6.col-xs-12.well").remove();
+        $("#weather8Div .col-md-3.col-sm-6.col-xs-12.well").remove();
 
 
         $.each(data.list, function(){
