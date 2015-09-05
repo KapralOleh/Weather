@@ -9,10 +9,7 @@ body {
 	color: black;
 }
 .navbar-default .navbar-nav>.active>a{
-	background: #4F768F;
-}
-.navbar-default {
-	color: black !important;
+	background: #4F768F !important;
 }
 .navbar-fixed-bottom {
 	padding-top: 20px;
