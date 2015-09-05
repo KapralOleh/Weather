@@ -34,8 +34,9 @@ $(function(){
         $('.location').html(city + ', ' + '<b>' + country + '</b>'); // Додаємо локацію на сторінку
     }
 
-    
+
     function addWeather(icon, day, condition, temp){
+        console.log(day)
         var markupHome = '<div class="slide">'+ 
                         '<div class="box">' +
                             '<h2 class="text-center">' + day + '</h2>'  + '<img class="weather-icon" src="images/icons/'+ icon +'.png" />'+
