@@ -33,21 +33,23 @@ $(function(){
         });
         $('.location').html(city + ', ' + '<b>' + country + '</b>'); // Додаємо локацію на сторінку
     }
-    
-function getStringDay(Nmb) {
 
-    switch (Nmb) {
-        case 1: return 'Понеділок';
-        case 2: return 'Вівторок';
-        case 3: return 'Середа';
-        case 4: return 'Четвер';
-        case 5: return 'П\'ятниця';
-        case 6: return 'Субота';
-        case 0: return 'Неділя';
+    function getStringDay(Nmb) {
+
+        switch (Nmb) {
+            case 1: return 'Понеділок';
+            case 2: return 'Вівторок';
+            case 3: return 'Середа';
+            case 4: return 'Четвер';
+            case 5: return 'П\'ятниця';
+            case 6: return 'Субота';
+            case 0: return 'Неділя';
+        }
+
     }
 
-}
-
+    var date = new Date();
+    
     function addWeather(icon, day, condition, temp){
         var day = getStringDay(date.day());
         var markupHome = '<div class="slide">'+ 
