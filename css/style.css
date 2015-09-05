@@ -195,5 +195,9 @@ a.glyphicon:hover {
 		height: 330px;
 	}
 	.weather-icon, .conditions {
-	width: 100px;
+		width: 100px;
+	}
+	.box h2, .weather-icon, .conditions {
+		margin: auto;
+	}
 }
