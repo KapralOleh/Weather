@@ -10,7 +10,7 @@ footer.row {
 	border-radius: 10px 10px 0px 0px;
 }
 .navbar-text {
-	color: #894D89 !important;
+	color: #458A85 !important;
 	font-weight: bold;
 }
 
@@ -36,11 +36,11 @@ table {
 }
 
 h1 {
-	color: #894D89;
+	color: #458A85;
 }
 a.glyphicon {
 	text-decoration: none;
-	color: #894D89 !important;
+	color: #458A85 !important;
 	margin-bottom: 10px;
 }
 a.glyphicon:hover {
@@ -141,7 +141,7 @@ a.glyphicon:hover {
   position: relative;
   float: left;
   display: block;
-  color: #894D89;
+  color: #458A85;
   font-size: 5em;
   opacity: 0;
   -ms-transform: translate(0, 80px) rotate(0, 0);
