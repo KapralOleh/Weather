@@ -191,13 +191,13 @@ a.glyphicon:hover {
 
 @media (max-width: 568px) {
 	.slider {
-		width: 330px;
-		height: 330px;
+		width: 335px;
+		height: 335px;
 	}
 	.weather-icon, .conditions {
 		width: 100px;
 	}
 	.box h2, .weather-icon, .conditions {
-		margin: auto;
+		margin-left: -40px;
 	}
 }
