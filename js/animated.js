@@ -1,10 +1,10 @@
 divClick.onclick = function () {
-	weather7Table.style.display = "table";
-	weather7Div.style.display = "none";
+	weather8Table.style.display = "table";
+	weather8Div.style.display = "none";
 }
 tableClick.onclick = function () {
-	weather7Div.style.display = "block";
-	weather7Table.style.display = "none";
+	weather8Div.style.display = "block";
+	weather8Table.style.display = "none";
 }
 
 var letters = document.getElementsByClassName('letter');
