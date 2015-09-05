@@ -31,6 +31,9 @@ footer.navbar {
 h3, th {
 	color: #000;
 }
+.well h3 {
+	color: white;
+}
 #temp {
 	font-size: 32px;
 }
