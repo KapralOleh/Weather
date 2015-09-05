@@ -1,6 +1,7 @@
 body {
-	background: #777;
+	background: white;
 	margin-bottom: 50px;
+	color: #458A85;
 }
 .navbar, .navbar-fixed-bottom {
 	background: #6BD6CF;
