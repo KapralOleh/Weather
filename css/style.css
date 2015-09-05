@@ -6,8 +6,9 @@ body {
 .navbar, .navbar-fixed-bottom {
 	background: #6BD6CF;
 	border-radius: 0px 0px 10px 10px;
+	color: black;
 }
-footer.row {
+footer.navbar {
 	border-radius: 10px 10px 0px 0px;
 }
 .navbar-text {
