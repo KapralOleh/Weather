@@ -9,7 +9,7 @@ body {
 	color: black;
 }
 .navbar-default {
-	color: black;
+	color: black !important;
 }
 .navbar-fixed-bottom {
 	padding-top: 20px;
