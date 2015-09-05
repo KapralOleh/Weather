@@ -8,6 +8,9 @@ body {
 	border-radius: 0px 0px 10px 10px;
 	color: black;
 }
+div.active {
+	background: #4F768F;
+}
 .navbar-default {
 	color: black !important;
 }
