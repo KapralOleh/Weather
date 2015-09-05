@@ -47,7 +47,10 @@ table {
 #weather8Div {
 	display: none;
 }
-
+.well {
+	background: #6BD6CF;
+	color: white;
+}
 h1 {
 	color: #458A85;
 }
