@@ -8,7 +8,7 @@ body {
 	border-radius: 0px 0px 10px 10px;
 	color: black;
 }
-div.active {
+div.active.in.fade {
 	background: #4F768F;
 }
 .navbar-default {
