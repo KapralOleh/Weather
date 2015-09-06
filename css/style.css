@@ -214,4 +214,7 @@ span {
 	body {
 		margin-bottom: 75px;
 	}
+	.navbar-header {
+		float: left;
+	}
 }
