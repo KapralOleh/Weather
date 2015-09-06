@@ -51,7 +51,7 @@ $(function(){
         weatherDiv.innerHTML += markupHome;
 
         var markup8table = '<tr>'+
-                '<td>' + day.replace(repl,"") + '</td>' +
+                '<td>' + day + '</td>' +
                 '<td>' + '<img class="weather-icon" src="images/icons/'+ 
                   icon
                   +'.png" />' + '</td>' +
