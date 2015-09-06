@@ -38,5 +38,5 @@ var addHandlers = function (nodes) {
 			nodes[i].onclick = animation(i);
 		};
 	};
-	var nodes = document.querySelectorAll('h3');
+	var nodes = document.querySelectorAll('.weather-icon');
 	addHandlers(nodes);
