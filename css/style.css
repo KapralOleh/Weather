@@ -191,8 +191,8 @@ a.glyphicon:hover {
 
 @media (max-width: 568px) {
 	.slider {
-		width: 335px;
-		height: 335px;
+		width: 355px;
+		height: 355px;
 	}
 	.weather-icon, .conditions {
 		width: 100px;
