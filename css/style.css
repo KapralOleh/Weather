@@ -157,7 +157,7 @@ a.glyphicon:hover {
 
 /*Animations*/
 .letter {
-	font: 100% "Luckiest Guy", sans-serif;
+  font: 100% "Luckiest Guy", sans-serif;
   letter-spacing: 0.2em;
   position: relative;
   float: left;
@@ -169,7 +169,7 @@ a.glyphicon:hover {
   -webkit-transform: translate(0, 80px) rotate(0, 0);
   transform: translate(0, 80px) rotate(0, 0);
   -webkit-transition: -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 300ms linear;
-          transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 300ms linear;
+        transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 300ms linear;
 }
 
 .letter.up {
@@ -190,17 +190,16 @@ a.glyphicon:hover {
 }
 .weather-icon {
 	position: relative;
-	z-index: 11111;
 	-webkit-transition: all 500ms linear;
           transition: all 500ms linear;
 }
 
-.weather-icon.left {
-  left:200px
+.weather-icon.up {
+  top:200px
 }
 
-.weather-icon.back {
-  left: 0px;
+.weather-icon.down {
+  top: 0px;
 }
 
 @media (max-width: 568px) {

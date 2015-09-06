@@ -27,9 +27,9 @@ var addHandlers = function (nodes) {
 			return function (e) {
 				 setTimeout(function() {
                     setTimeout(function() {
-                      nodes[i].className = 'weather-icon left'}, 80);
+                      nodes[i].className = 'weather-icon up'}, 80);
                     setTimeout(function() {
-                      nodes[i].className = 'weather-icon back'}, 500+80);
+                      nodes[i].className = 'weather-icon down'}, 500+80);
                   }, 400);
 			};
 		};
