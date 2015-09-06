@@ -39,7 +39,7 @@ $(function(){
         var repl = day.slice(-11);
         var markupHome = '<div class="slide">'+ 
                         '<div class="box">' +
-                            '<h2 class="text-center">' + day.length > 11 ? day.replace(repl,"") + '</h2>'  + '<img class="weather-icon" src="images/icons/'+ icon +'.png" />'+
+                            '<h2 class="text-center">' + day.replace(repl,"") + '</h2>'  + '<img class="weather-icon" src="images/icons/'+ icon +'.png" />'+
                             '<div class="conditions">' +
                                 '<span id="temp">' + temp + '</span>'  + '<br>' +
                                 '<span id="condition">' + condition + '</span>' +
