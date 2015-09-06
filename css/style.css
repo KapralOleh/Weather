@@ -190,6 +190,7 @@ a.glyphicon:hover {
 }
 .weather-icon {
 	position: relative;
+	z-index: 11111;
 	-webkit-transition: all 500ms linear;
           transition: all 500ms linear;
 }
