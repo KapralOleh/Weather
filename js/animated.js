@@ -22,3 +22,21 @@ $('.slider')
         "top": "50px"
       }, {queue:false, duration: 4000, easing:"easeOutElastic"} );
 
+var addHandlers = function (nodes) {
+		var animation = function (i) {
+			return function (e) {
+				 setTimeout(function() {
+                    setTimeout(function() {
+                      nodes[i].className = 'text-center letter location left'}, 80);
+                    setTimeout(function() {
+                      nodes[i].className = 'text-center letter location back'}, 500+80);
+                  }, 400);
+			};
+		};
+		var i;
+		for (var i = 0; i < nodes.length; i++) {
+			nodes[i].onclick = animation(i);
+		};
+	};
+	var nodes = document.querySelectorAll('.well img');
+	addHandlers(nodes);
