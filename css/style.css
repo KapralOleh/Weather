@@ -203,4 +203,7 @@ a.glyphicon:hover {
 	.box h2 {
 		margin-left: -60px;
 	}
+	.letter {
+		font-size: 3em;
+	}
 }
