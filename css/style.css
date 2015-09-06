@@ -189,6 +189,8 @@ a.glyphicon:hover {
   transform: translate(0, 0) rotate(0, 0);
 }
 span {
+	font-size: 30px;
+	line-height: 30px;
 	float: right;
 }
 @media (max-width: 568px) {
