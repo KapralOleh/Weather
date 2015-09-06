@@ -27,9 +27,9 @@ var addHandlers = function (nodes) {
 			return function (e) {
 				 setTimeout(function() {
                     setTimeout(function() {
-                      nodes[i].className = 'weather-icon up'}, 80);
+                      nodes[i].className = 'col-md-3 col-sm-6 col-xs-12 well up'}, 80);
                     setTimeout(function() {
-                      nodes[i].className = 'weather-icon down'}, 500+80);
+                      nodes[i].className = 'col-md-3 col-sm-6 col-xs-12 well down'}, 500+80);
                   }, 400);
 			};
 		};
@@ -38,5 +38,5 @@ var addHandlers = function (nodes) {
 			nodes[i].onclick = animation(i);
 		};
 	};
-	var nodes = document.querySelectorAll('.weather-icon');
+	var nodes = document.querySelectorAll('div.well');
 	addHandlers(nodes);
