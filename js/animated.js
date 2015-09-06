@@ -38,5 +38,5 @@ var addHandlers = function (nodes) {
 			nodes[i].onclick = animation(i);
 		};
 	};
-	var nodes = document.querySelectorAll('.well img');
+	var nodes = document.querySelectorAll('h3');
 	addHandlers(nodes);
