@@ -188,6 +188,18 @@ a.glyphicon:hover {
   -webkit-transform: translate(0, 0) rotate(0, 0);
   transform: translate(0, 0) rotate(0, 0);
 }
+.weather-icon {
+	-webkit-transition: all 500ms linear;
+          transition: all 500ms linear;
+}
+
+.weather-icon.left {
+  left:200px
+}
+
+.weather-icon.back {
+  left: 0px;
+}
 
 @media (max-width: 568px) {
 	.slider {
