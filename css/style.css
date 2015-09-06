@@ -194,18 +194,18 @@ a.glyphicon:hover {
           transition: all 500ms linear;
 }
 
-.well.up {
+.col-md-3.col-sm-6.col-xs-12.well.up {
   top:200px
 }
 
-.well.down {
+.col-md-3.col-sm-6.col-xs-12.well.down {
   top: 0px;
 }
 
 @media (max-width: 568px) {
 	.slider {
-		width: 355px;
-		height: 355px;
+		width: 335px;
+		height: 335px;
 	}
 	.weather-icon, .conditions {
 		width: 100px;
@@ -221,5 +221,8 @@ a.glyphicon:hover {
 	}
 	ul.navbar-nav {
 		display: none;
+	}
+	body {
+		margin-bottom: 75px;
 	}
 }
