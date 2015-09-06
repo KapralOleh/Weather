@@ -210,13 +210,9 @@ a.glyphicon:hover {
 	.letter {
 		font-size: 3em;
 	}
-	ul.navbar-nav {
-		display: none;
-	}
+	
 	body {
 		margin-bottom: 75px;
 	}
-	.navbar-header {
-		float: left;
-	}
+	
 }
