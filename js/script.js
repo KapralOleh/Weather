@@ -36,10 +36,12 @@ $(function(){
 
 
     function addWeather(icon, day, condition, temp){
-        var repl = day.slice(-11);
+        if (day.length>11) {
+            var day = day.slice(-11);
+        }
         var markupHome = '<div class="slide">'+ 
                         '<div class="box">' +
-                            '<h2 class="text-center">' + day.replace(repl,"") + '</h2>'  + '<img class="weather-icon" src="images/icons/'+ icon +'.png" />'+
+                            '<h2 class="text-center">' + day + '</h2>'  + '<img class="weather-icon" src="images/icons/'+ icon +'.png" />'+
                             '<div class="conditions">' +
                                 '<span id="temp">' + temp + '</span>'  + '<br>' +
                                 '<span id="condition">' + condition + '</span>' +
@@ -60,7 +62,7 @@ $(function(){
 
         var markup8Div = '<div class="col-md-3 col-sm-6 col-xs-12 well">'+ 
                         '<div>' +
-                            '<h3 class="text-center">' + day.replace(repl,"") + '</h3>'  + '<img class="weather-icon" src="images/icons/'+ icon +'.png" />'+
+                            '<h3 class="text-center">' + day + '</h3>'  + '<img class="weather-icon" src="images/icons/'+ icon +'.png" />'+
                             '<div class="conditions">' +
                                 '<span id="temp">' + temp + '</span>'  + '<br>' +
                                 '<span id="condition">' + condition + '</span>' +
