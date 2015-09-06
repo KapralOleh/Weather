@@ -22,21 +22,3 @@ $('.slider')
         "top": "50px"
       }, {queue:false, duration: 4000, easing:"easeOutElastic"} );
 
-var addHandlers = function (nodes) {
-		var animation = function (i) {
-			return function (e) {
-				 setTimeout(function() {
-                    setTimeout(function() {
-                      nodes[i].className = 'col-md-3 col-sm-6 col-xs-12 well up'}, 80);
-                    setTimeout(function() {
-                      nodes[i].className = 'col-md-3 col-sm-6 col-xs-12 well down'}, 500+80);
-                  }, 400);
-			};
-		};
-		var i;
-		for (var i = 0; i < nodes.length; i++) {
-			nodes[i].onclick = animation(i);
-		};
-	};
-	var nodes = document.querySelectorAll('div.well');
-	addHandlers(nodes);
