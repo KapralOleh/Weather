@@ -188,6 +188,9 @@ a.glyphicon:hover {
   -webkit-transform: translate(0, 0) rotate(0, 0);
   transform: translate(0, 0) rotate(0, 0);
 }
+span {
+	float: right;
+}
 @media (max-width: 568px) {
 	.slider {
 		width: 335px;
