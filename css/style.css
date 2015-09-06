@@ -190,6 +190,8 @@ a.glyphicon:hover {
 }
 span {
 	float: right;
+	margin-bottom: 40px;
+	font-size: 20px;
 }
 @media (max-width: 568px) {
 	.slider {
