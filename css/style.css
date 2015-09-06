@@ -3,7 +3,7 @@ body {
 	margin-bottom: 50px;
 	color: #458A85;
 }
-.navbar, .navbar-fixed-bottom {
+/*.navbar, .navbar-fixed-bottom {
 	background: #6BD6CF;
 	border-radius: 0px 0px 10px 10px;
 	color: black;
@@ -11,7 +11,7 @@ body {
 .navbar-default .navbar-nav>.active>a{
 	background: #64B9B4 !important;
 	color: #000 !important;
-}
+}*/
 .navbar-fixed-bottom {
 	padding-top: 20px;
 }
@@ -188,11 +188,7 @@ a.glyphicon:hover {
   -webkit-transform: translate(0, 0) rotate(0, 0);
   transform: translate(0, 0) rotate(0, 0);
 }
-/*span {
-	font-size: 30px;
-	line-height: 30px;
-	float: right;
-}*/
+
 @media (max-width: 568px) {
 	.slider {
 		width: 335px;
