@@ -192,7 +192,7 @@ span {
 	float: right;
 	font-size: 20px;
 	position: relative;
-	top: 0px;
+	top: -20px;
 }
 @media (max-width: 568px) {
 	.slider {
