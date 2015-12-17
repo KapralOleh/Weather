@@ -11,7 +11,7 @@ function getWeatherData(lang, fnOK, fnError) {
         } else {
             $.getJSON(
                 'http://api.openweathermap.org/data/2.5/forecast/daily?lat=' + position.coords.latitude + '&lon=' +
-                position.coords.longitude + '&cnt=8&units=metric' + '&lang=' + lang + '&callback=?',
+                position.coords.longitude + '&cnt=8&units=metric' + '&lang=' + lang + '&APPID=c5921925e0f07a88ab8d9003fa7401d8&callback=?',
                 function (response) {
                     // Store the cache
                     localStorage.weatherCache = JSON.stringify({
